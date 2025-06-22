@@ -2,6 +2,8 @@
   "version": 1,
   "name": "Bahrain FIR (OBBB)",
   "id": "8b451514-1838-470c-92ff-3a63c769bd92",
+  "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
+  "updateSerial": 2025062201,
   "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
