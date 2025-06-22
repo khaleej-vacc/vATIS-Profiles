@@ -27,25 +27,25 @@
           },
           "standard": {
             "template": {
-              "text": "wind {wind_dir}{wind_spd}KT",
+              "text": "WIND {wind_dir} {wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "wind {wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "WIND {wind_dir} {wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT",
+              "text": "VRB {wind_spd}KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "text": "VRB {wind_spd} G {wind_gust}KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
@@ -306,15 +306,15 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}",
+            "voice": "NOTAMS: {notams}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "text": "{letter|word}",
+            "voice": "{letter|word}"
           }
         }
       },
@@ -333,7 +333,7 @@
           "name": "30R | NORTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP @ILS APPROACH/ LDG @30R DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] @HPA. [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "template": "[FACILITY] DEP ARR [CLOSING] [TIME]\r\n\r\nATIS [ATIS_LETTER]\r\nEXP @ILS APPROACH/ LDG @30R DEP IN USE\r\n@CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD .\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false
           }
@@ -343,7 +343,7 @@
           "name": "12L | SOUTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP @ILS APPROACH/ LDG @12L DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. WIND [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] @HPA.[CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "template": "[FACILITY] DEP ARR [CLOSING] [TIME]\r\n\r\nATIS [ATIS_LETTER]\r\nEXP @ILS APPROACH/ LDG @12L DEP IN USE\r\n@CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD .\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false
           }
