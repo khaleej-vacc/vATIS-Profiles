@@ -1920,11 +1920,11 @@
           }
         },
         "trend": {
-          "nosigText": "NOSIG",
+          "nosigText": " TREND NOSIG",
           "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
+          "becomingText": "TREND BECMG",
           "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
+          "temporaryText": "TREND TEMPO",
           "temporaryVoice": "Temporary",
           "template": {}
         },
@@ -1972,7 +1972,7 @@
           "name": "30R | NORTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1988,7 +1988,7 @@
           "name": "12L | SOUTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\n[TIME] ATIS [ATIS_LETTER]\nEXP @ILS APP\nLDG @12L IN USE\nDEP @12L IN USE\n[SURFACE_WIND]\nVIS [VIS]\n@T [TEMP] / @DP [DEW]\nQNH [PRESSURE] @HPA\nTREND [TREND]\n[CLOUDS]\n[NOTAMS]\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
