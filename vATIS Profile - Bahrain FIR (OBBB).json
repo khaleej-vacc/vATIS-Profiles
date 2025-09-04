@@ -1920,7 +1920,7 @@
           }
         },
         "trend": {
-          "nosigText": " TREND NOSIG",
+          "nosigText": "TREND NOSIG",
           "nosigVoice": "No Significant Changes",
           "becomingText": "TREND BECMG",
           "becomingVoice": "Becoming",
