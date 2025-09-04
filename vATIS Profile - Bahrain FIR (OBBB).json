@@ -1951,7 +1951,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
-            "text": "{letter}",
+            "text": "{letter|word}",
             "voice": "{letter|word}."
           }
         }
@@ -1972,7 +1972,7 @@
           "name": "30R | NORTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [CLOSING]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1988,7 +1988,7 @@
           "name": "12L | SOUTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [CLOSING]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
