@@ -1,8 +1,8 @@
 {
   "name": "Bahrain FIR (OBBB)",
-  "id": "c6eb7c2f-3103-4800-80b6-e984ac6bedd4",
+  "id": "a12753e0-8243-40e9-b622-0457590d373d",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
-  "updateSerial": 2025090404,
+  "updateSerial": 2025090501,
   "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
@@ -2039,12 +2039,22 @@
         {
           "variableName": "HPA",
           "text": "HPA",
-          "voice": "HECK-TOE-PAS-CALS"
+          "voice": "HECK-TOE-PAS-CALS. "
         },
         {
           "variableName": "ILS",
           "text": "ILS",
           "voice": "EYE-L-ESS"
+        },
+        {
+          "variableName": "LDG",
+          "text": "LDG",
+          "voice": ". LDG"
+        },
+        {
+          "variableName": "USE",
+          "text": "USE",
+          "voice": "USE. "
         }
       ],
       "airportConditionDefinitions": [
