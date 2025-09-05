@@ -1,8 +1,8 @@
 {
   "name": "Bahrain FIR (OBBB)",
-  "id": "a12753e0-8243-40e9-b622-0457590d373d",
+  "id": "d2e13c07-3767-4bb0-a26a-3ee3ea9d96cd",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
-  "updateSerial": 2025090501,
+  "updateSerial": 2025090502,
   "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
@@ -75,7 +75,7 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "9999",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
@@ -1972,7 +1972,7 @@
           "name": "30R | NORTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1988,7 +1988,7 @@
           "name": "12L | SOUTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\n[NOTAMS]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
