@@ -1,6 +1,6 @@
 {
   "name": "Bahrain FIR (OBBB)",
-  "id": "d0ba50e2-8d27-4c58-b3af-2b278de3ae8b",
+  "id": "82b41cdd-4c79-4dcf-b6f9-afba6de5cb8b",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
   "updateSerial": 2025091601,
   "stations": [
@@ -1969,10 +1969,11 @@
       "presets": [
         {
           "id": "7f7795f2-57d0-4171-9335-453a68acd534",
-          "name": "30R | NORTH CONFIGURATION",
+          "ordinal": 1,
+          "name": "30R | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\n[TIME] BAHRAIN\nINTERNATIONAL AIRPORT\nTOWER ATIS INFORMATION [CLOSING]\n[TIME] EXPECT ILS\nRUNWAY IN USE 30R\n[NOTAMS]\n[WIND]\nVISIBILITY [VIS]\n[CLOUDS]\nTEMPERATURE [TEMP]\nDEW POINT [DEW]\nQNH [PRESSURE] HECTOPASCAL\n[TREND]\nEND OF ATIS [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1985,10 +1986,41 @@
         },
         {
           "id": "3727781d-e8b2-4b62-a555-23d3bce21e5a",
-          "name": "12L | SOUTH CONFIGURATION",
+          "ordinal": 1,
+          "name": "12L | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\n[TIME] BAHRAIN\nINTERNATIONAL AIRPORT\nTOWER ATIS INFORMATION [CLOSING]\n[TIME] EXPECT ILS\nRUNWAY IN USE 12L\n[NOTAMS]\n[WIND]\nVISIBILITY [VIS]\n[CLOUDS]\nTEMPERATURE [TEMP]\nDEW POINT [DEW]\nQNH [PRESSURE] HECTOPASCAL\n[TREND]\nEND OF ATIS [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "b674fe92-a2bf-4203-8e32-800abc30d277",
+          "ordinal": 3,
+          "name": "30R | VOR DME",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\n[TIME] BAHRAIN\nINTERNATIONAL AIRPORT\nTOWER ATIS INFORMATION [CLOSING]\n[TIME] EXPECT VOR DME\nRUNWAY IN USE 30R\n[NOTAMS]\n[WIND]\nVISIBILITY [VIS]\n[CLOUDS]\nTEMPERATURE [TEMP]\nDEW POINT [DEW]\nQNH [PRESSURE] HECTOPASCAL\n[TREND]\nEND OF ATIS [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "94350683-6083-4b6d-8ae0-b67d7e826293",
+          "ordinal": 4,
+          "name": "12L | VOR DME",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\n[TIME] BAHRAIN\nINTERNATIONAL AIRPORT\nTOWER ATIS INFORMATION [CLOSING]\n[TIME] EXPECT VOR DME\nRUNWAY IN USE 12L\n[NOTAMS]\n[WIND]\nVISIBILITY [VIS]\n[CLOUDS]\nTEMPERATURE [TEMP]\nDEW POINT [DEW]\nQNH [PRESSURE] HECTOPASCAL\n[TREND]\nEND OF ATIS [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2029,32 +2061,22 @@
         {
           "variableName": "12L",
           "text": "12L",
-          "voice": "ONE-TWO-LEFT"
+          "voice": "ONE-TWO-LEFT."
         },
         {
           "variableName": "30R",
           "text": "30R",
-          "voice": "THREE-ZERO-RIGHT"
-        },
-        {
-          "variableName": "HPA",
-          "text": "HPA",
-          "voice": "HECK-TOE-PAS-CALS. "
+          "voice": "THREE-ZERO-RIGHT."
         },
         {
           "variableName": "ILS",
           "text": "ILS",
-          "voice": "EYE-L-ESS"
-        },
-        {
-          "variableName": "LDG",
-          "text": "LDG",
-          "voice": ". LDG"
+          "voice": "EYE-L-ESS."
         },
         {
           "variableName": "USE",
           "text": "USE",
-          "voice": "USE. "
+          "voice": "USE"
         }
       ],
       "airportConditionDefinitions": [
