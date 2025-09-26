@@ -1,8 +1,8 @@
 {
   "name": "Bahrain FIR (OBBB)",
-  "id": "d0ba50e2-8d27-4c58-b3af-2b278de3ae8b",
+  "id": "2893b2ef-d50b-4d48-b257-43d8f86a164d",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
-  "updateSerial": 2025091801,
+  "updateSerial": 2025092601,
   "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
@@ -1972,7 +1972,7 @@
           "name": "30R | NORTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1988,7 +1988,7 @@
           "name": "12L | SOUTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
