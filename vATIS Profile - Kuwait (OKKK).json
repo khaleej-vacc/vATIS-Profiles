@@ -2,7 +2,7 @@
   "name": "Kuwait (OKKK)",
   "id": "f26c7c98-9eaa-4c00-ba5c-4c3e418a1714",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Kuwait%20(OKKK).json",
-  "updateSerial": 2025092601,
+  "updateSerial": 2025092602,
   "stations": [
     {
       "id": "1db1877a-a954-43a1-9dbd-bff5d092eb12",
@@ -2186,6 +2186,11 @@
           "variableName": "ARRDEP",
           "text": "ARRDEP",
           "voice": "ARRIVAL AND DEPARTURE"
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": ". RUNWAY SURFACE CONDITIONS"
         }
       ],
       "airportConditionDefinitions": [],
