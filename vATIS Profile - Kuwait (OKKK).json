@@ -2,7 +2,7 @@
   "name": "Kuwait (OKKK)",
   "id": "54ceb788-9c67-402b-8185-b99374c28bcb",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Kuwait%20(OKKK).json",
-  "updateSerial": 2025103001,
+  "updateSerial": 2025110601,
   "stations": [
     {
       "id": "1db1877a-a954-43a1-9dbd-bff5d092eb12",
@@ -1971,6 +1971,8 @@
           "id": "e4adfa89-a0cf-4eac-b7f9-fd0d24d40016",
           "ordinal": 1,
           "name": "33L DEP | 34 ARR",
+          "airportConditions": "",
+          "notams": "",
           "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY34 @DEP RWY33L\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -1988,7 +1990,7 @@
           "name": "15R DEP | 16 ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY16 @DEP RWY15R\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2018,6 +2020,7 @@
           "id": "c306ecaf-3425-4e98-9f3a-310980ad8fff",
           "ordinal": 6,
           "name": "15R/16 | DUAL RWY CONFIG",
+          "notams": "",
           "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY15R RWY16\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -2165,6 +2168,11 @@
           "text": "INCREASED SEPARATION MINIMA IN USE DURING SINGLE RUNWAY OPERATIONS",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "ADVS IF UNABLE RWY 34.",
+          "ordinal": 2,
+          "enabled": true
         }
       ]
     },
@@ -4090,6 +4098,8 @@
           "id": "40628b00-4887-450e-92e2-ebdc08109ef8",
           "ordinal": 0,
           "name": "30L | ILS APP",
+          "airportConditions": "",
+          "notams": "",
           "template": "OKAS ATIS INFO [ATIS_CODE] [TIME].\r\nARRDEP RWY30L\r\nEXPECT ILS APP\r\n[ARPT_COND]\r\nMET DATA [TIME] [SURFACE_WIND] [VIS] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
