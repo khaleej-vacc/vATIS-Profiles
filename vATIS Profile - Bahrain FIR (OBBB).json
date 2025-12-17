@@ -1,8 +1,8 @@
 {
   "name": "Bahrain FIR (OBBB)",
-  "id": "2893b2ef-d50b-4d48-b257-43d8f86a164d",
+  "id": "e68ab503-554c-4e78-a6d7-7f097e937848",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
-  "updateSerial": 2025092601,
+  "updateSerial": 2025121701,
   "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
@@ -1969,10 +1969,10 @@
       "presets": [
         {
           "id": "7f7795f2-57d0-4171-9335-453a68acd534",
-          "name": "30R | NORTH CONFIGURATION",
+          "name": "30R | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1985,10 +1985,38 @@
         },
         {
           "id": "3727781d-e8b2-4b62-a555-23d3bce21e5a",
-          "name": "12L | SOUTH CONFIGURATION",
+          "name": "12L | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS APP\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "db1c81da-b120-4ea7-8135-e1cfa55940c7",
+          "name": "30R | VOR",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @VOR\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "4c492e31-43d2-4774-8a85-443b8e35ada8",
+          "name": "12L | VOR",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @VOR\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2055,6 +2083,11 @@
           "variableName": "USE",
           "text": "USE",
           "voice": "USE. "
+        },
+        {
+          "variableName": "VOR",
+          "text": "VOR",
+          "voice": "VEE-O-ARE"
         }
       ],
       "airportConditionDefinitions": [
@@ -2064,7 +2097,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "CTN FLOCKS OF BIRDS IN\r\nTHE VICINITY OF THE\r\nAERODROME.",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     }
   ],
   "version": 4
