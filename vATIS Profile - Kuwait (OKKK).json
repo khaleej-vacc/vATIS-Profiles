@@ -1,8 +1,8 @@
 {
   "name": "Kuwait (OKKK)",
-  "id": "54ceb788-9c67-402b-8185-b99374c28bcb",
+  "id": "f847ba1d-7e2a-4536-a6c5-b46516397559",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Kuwait%20(OKKK).json",
-  "updateSerial": 2025112802,
+  "updateSerial": 2026011201,
   "stations": [
     {
       "id": "1db1877a-a954-43a1-9dbd-bff5d092eb12",
@@ -1973,7 +1973,7 @@
           "name": "33L DEP | 34 ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY34 @DEP RWY33L\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY34 @DEP RWY33L EXP INSTRUMENT\r\nAPPROACH ILS DME [ARPT_COND] TRL FL150\r\nWIND [SURFACE_WIND] [VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1990,7 +1990,7 @@
           "name": "15R DEP | 16 ARR",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY16 @DEP RWY15R\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY16 @DEP RWY15R EXP INSTRUMENT\r\nAPPROACH ILS DME [ARPT_COND] TRL FL150\r\nWIND [SURFACE_WIND] [VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2007,7 +2007,7 @@
           "name": "33L/34 | DUAL RWY CONFIG",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY33L RWY34\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY33L RWY34\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2023,7 +2023,7 @@
           "ordinal": 6,
           "name": "15R/16 | DUAL RWY CONFIG",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY15R RWY16\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARR RWY16 DEP RWY15R EXP INSTRUMENT APPROACH ILS DME\r\n[ARPT_COND] TRL FL150\r\n[NOTAMS]\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\nVIS [VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2038,7 +2038,7 @@
           "id": "4debb69e-c7b9-4d3a-80e7-6d911f7e0ebe",
           "ordinal": 7,
           "name": "33L SRO",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY33L\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY33L\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2054,7 +2054,7 @@
           "ordinal": 8,
           "name": "33R SRO",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY33R\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY33R\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2071,7 +2071,7 @@
           "name": "15L SRO",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY15L\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY15L\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2086,7 +2086,7 @@
           "id": "330808ca-d07e-4d57-a1c7-15ad33b37805",
           "ordinal": 10,
           "name": "15R SRO",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY15R\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY15R\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2101,7 +2101,7 @@
           "id": "c9aa8843-c6a9-4b2a-9e70-e4366d0dceda",
           "ordinal": 11,
           "name": "16 SRO",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY16\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY16\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2118,7 +2118,7 @@
           "name": "34 SRO",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY34\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[TIME] @ARRDEP RWY34\r\n[ARPT_COND] TRL FL150\r\nMET DATA DATES FROM [TIME] WIND [SURFACE_WIND]\r\n[VIS] [CLOUDS] T[TEMP] DP[DEW] QNH [PRESSURE]HPA\r\n[TREND]\r\n[NOTAMS]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2213,6 +2213,11 @@
           "text": "ADVS IF UNABLE RWY16 ON INITIAL CONTACT",
           "ordinal": 3,
           "enabled": false
+        },
+        {
+          "text": "RWY33R RWY15L CLSD",
+          "ordinal": 4,
+          "enabled": true
         }
       ]
     },
