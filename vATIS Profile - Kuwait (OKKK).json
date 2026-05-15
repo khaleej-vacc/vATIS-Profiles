@@ -1,8 +1,8 @@
 {
   "name": "Kuwait (OKKK)",
-  "id": "b17ad1ad-79a1-422f-8ac7-046695fc0c96",
+  "id": "032315f6-3421-4e89-892f-cb442168a627",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Kuwait%20(OKKK).json",
-  "updateSerial": 2026011202,
+  "updateSerial": 2026051501,
   "stations": [
     {
       "id": "1db1877a-a954-43a1-9dbd-bff5d092eb12",
@@ -2184,6 +2184,11 @@
         {
           "text": "RWY33R RWY15L CLSD",
           "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "FLOW CONTROL IN FORCE. NON EVENT TFC EXPECT DELAY.",
+          "ordinal": 5,
           "enabled": true
         }
       ]
