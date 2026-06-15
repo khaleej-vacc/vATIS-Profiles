@@ -2,7 +2,7 @@
   "name": "Doha FIR (OTDF)",
   "id": "db410892-4815-4a61-9596-2b96139a62f7",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Doha%20FIR%20(OTDF).json",
-  "updateSerial": 2026061501,
+  "updateSerial": 2026061502,
   "stations": [
     {
       "id": "a07c0657-751d-42b1-a982-515c7bc499cc",
