@@ -1,8 +1,8 @@
 {
   "name": "Doha FIR (OTDF)",
-  "id": "db410892-4815-4a61-9596-2b96139a62f7",
+  "id": "3e522420-d1cd-4bc4-b6b2-ba314a48d5b5",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Doha%20FIR%20(OTDF).json",
-  "updateSerial": 2026061502,
+  "updateSerial": 2026061601,
   "stations": [
     {
       "id": "a07c0657-751d-42b1-a982-515c7bc499cc",
@@ -1908,7 +1908,7 @@
           "usePlusPrefix": false,
           "speakLeadingZero": false,
           "template": {
-            "text": "D {dewpoint}",
+            "text": "DP {dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -1971,7 +1971,7 @@
           "id": "6478b8c4-fda5-48c4-ba77-6db14a7ddfed",
           "ordinal": 1,
           "name": "16L | SRO |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\nRWY 16 L DISPLACED THR DUE TO WORK IN \r\nPROGRESS.\r\nDUE WORK INPROGRESS RWY 16 L TORA 3030 M EXP A 9 FOR DEP. ADVISE GND IF A 8 IS REQUIRED\r\nRRSM SUSPENDED RWY 16L.\r\nEXP TARVEX 2 DEP FM 16 L (NOTAM 0134 / 26).\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nVIS RWY 16L [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 16L DEPARTURES, EXP TEMPORARY DEP\r\nINSTRUCTION, TARVEX 2, REF NOTAM A 0788 / 26\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1987,7 +1987,7 @@
           "ordinal": 2,
           "name": "16R | SRO |",
           "notams": "",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\nVIS RWY 16R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2002,7 +2002,7 @@
           "id": "de1ab6ba-a25d-4b16-949d-fc905a591da9",
           "ordinal": 3,
           "name": "16L/R | DC |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 LEFT AND 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nDUE WORK INPROGRESS RWY 16 L TORA 3030 M EXP A 9 FOR DEP. ADVISE GND IF A 8 IS REQUIRED\r\nRWY 16 L AND 16 R AVAILABLE FOR DEP. EXP TARVEX 2 DEP FM 16 L (NOTAM 0134 / 26).\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\nVIS RWY 16L [VIS][RVR].\r\nVIS RWY 16R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]\r\n",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT AND 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 16L DEPARTURES, EXP TEMPORARY DEP\r\nINSTRUCTION, TARVEX 2, REF NOTAM A 0788 / 26\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2017,7 +2017,7 @@
           "id": "54fefb70-1c25-4091-a0af-9c6a72b37b7e",
           "ordinal": 5,
           "name": "34L | SRO |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nVIS RWY 34L [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2032,7 +2032,7 @@
           "id": "328030f9-2b88-44a9-a4af-f3f7ad48abe3",
           "ordinal": 6,
           "name": "34R | SRO |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT.\r\n[ARPT_COND]\r\nRWY 34 R TORA 3030 M DUE WORK IN PROGRESS.\r\nEXP ALVEMI 2 DEP FM RWY 34 R (NOTAM A 0133 / 26).\r\nRRSM SUSPENDED RWY 34R.\r\n[NOTAMS]\r\nWIND RWY 34R [SURFACE_WIND].\r\nVIS RWY 34R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34R DEPARTURES, EXP TEMPORARY DEP\r\nINSTRUCTION, ALVEMI 2, REF NOTAM A 0787 / 26\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2049,7 +2049,7 @@
           "name": "34L/R | DC |",
           "airportConditions": "",
           "notams": "",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 LEFT AND 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34 R TORA 3030 M DUE WORK IN PROGRESS.\r\nEXP ALVEMI 2 DEP FM RWY 34 R (NOTAM A 0133 / 26).\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\nVIS RWY 34L [VIS][RVR].\r\nVIS RWY 34R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]\r\n",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT AND 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34R DEPARTURES, EXP TEMPORARY DEP\r\nINSTRUCTION, ALVEMI 2, REF NOTAM A 0787 / 26\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4102,40 +4102,10 @@
       },
       "presets": [
         {
-          "id": "bde40d5d-5f80-451c-815b-6a64e4940782",
+          "id": "94daa181-8d53-434c-9879-433c15319204",
           "ordinal": 1,
-          "name": "16L | RNP T APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP T APCH FOR RWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\nRWY 16 L DISPLACED THR DUE TO WORK IN\r\nPROGRESS.\r\nILS RWY 16L UNAVAILABLE, EXP RNP T.\r\nRRSM SUSPENDED RWY 16L.\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nVIS RWY 16L [VIS] [RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "1c55bf7e-8281-46c9-add7-e2a892644fe0",
-          "ordinal": 2,
-          "name": "16R | ILS APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\nVIS RWY 16R [VIS] [RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "14f645c9-4dd3-4e48-9274-d82f2018d9cb",
-          "ordinal": 3,
-          "name": "16R | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\nVIS RWY 16R [VIS] [RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "name": "34L/R | ILS APCH | DC",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT AND EXP ILS APCH FOR 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34 R CAT 1 ILS ONLY.\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]\r\n",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4148,10 +4118,25 @@
         },
         {
           "id": "0bb99895-5c20-4510-a6dd-09a1be814db9",
-          "ordinal": 4,
-          "name": "16L/R | RNP T/ILS APCH | DC",
+          "ordinal": 2,
+          "name": "16L/R | ILS APCH | DC",
           "notams": "",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT AND EXP ILS APCH FOR 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 16 L DISPLACED THR DUE TO WORK IN PROGRESS.\r\nRWY 16 L LDG DIST AVAILABLE 3030 M.\r\nILS RWY 16 L UNAVAILABLE, EXP RNP T.\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\nVIS RWY 16L [VIS][RVR].\r\nVIS RWY 16R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]\r\n",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT AND EXP ILS APCH FOR 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]\r\n",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c6bdbee3-0e71-4e76-a61d-d98ae0d6857b",
+          "ordinal": 3,
+          "name": "34L/R | RNP APCH | DC",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT AND 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4164,9 +4149,9 @@
         },
         {
           "id": "fe8bb4eb-ba37-4a19-bfc7-6068f5343e54",
-          "ordinal": 5,
+          "ordinal": 4,
           "name": "16L/R | RNP APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT AND 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 16 L DISPLACED THR DUE TO WORK IN PROGRESS.\r\nRWY 16 L LDG DIST AVAILABLE 3030 M.\r\nRNP RWY 16 L UNAVAILABLE,  EXP RNP T.\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\nVIS RWY 16L [VIS][RVR].\r\nVIS RWY 16R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT AND 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4179,9 +4164,9 @@
         },
         {
           "id": "9ad977ae-05b8-4819-909c-06f2aa4ebda1",
-          "ordinal": 6,
+          "ordinal": 5,
           "name": "34L | ILS APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nVIS RWY 34L [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4194,9 +4179,9 @@
         },
         {
           "id": "7069fca2-1c02-4e6f-b937-73d4fd704aee",
-          "ordinal": 7,
+          "ordinal": 5,
           "name": "34L | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nVIS RWY 34L [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4211,7 +4196,7 @@
           "id": "987cda17-c65b-483b-b380-30e8122aecac",
           "ordinal": 7,
           "name": "34R | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 RIGHT.\r\nRWY 34 R LDA 3030 M DUE WORK IN PROGRESS.\r\nLAST EXIT TWY A 9.\r\nRNP T NOT AVAILABLE. EXP RNP.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34R [SURFACE_WIND].\r\nVIS RWY 34R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4223,10 +4208,25 @@
           }
         },
         {
-          "id": "94daa181-8d53-434c-9879-433c15319204",
+          "id": "bde40d5d-5f80-451c-815b-6a64e4940782",
+          "ordinal": 8,
+          "name": "16L | RNP APCH | SRO",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "1c55bf7e-8281-46c9-add7-e2a892644fe0",
           "ordinal": 9,
-          "name": "34L/R | ILS/RNP APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 LEFT AND EXP RNP APCH FOR 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34 R LDA 3030 M DUE WORK IN PROGRESS.\r\nLAST EXIT TWY A 9.\r\nILS RWY 34R NOT AVAILABLE.\r\nRNP T NOT AVAILABLE. EXP RNP.\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\nVIS RWY 34L [VIS][RVR].\r\nVIS RWY 34R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]\r\n",
+          "name": "16R | ILS APCH | SRO",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4238,10 +4238,10 @@
           }
         },
         {
-          "id": "c6bdbee3-0e71-4e76-a61d-d98ae0d6857b",
+          "id": "14f645c9-4dd3-4e48-9274-d82f2018d9cb",
           "ordinal": 10,
-          "name": "34L/R | RNP/RNP APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT AND 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34 R LDA 3030 M DUE WORK IN PROGRESS.\r\nLAST EXIT TWY A 9.\r\nRNP T NOT AVAILABLE. EXP RNP.\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\nVIS RWY 34L [VIS][RVR].\r\nVIS RWY 34R [VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "name": "16R | RNP APCH | SRO",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
