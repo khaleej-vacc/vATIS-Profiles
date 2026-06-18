@@ -1,8 +1,8 @@
 {
   "name": "Doha FIR (OTDF)",
-  "id": "3e522420-d1cd-4bc4-b6b2-ba314a48d5b5",
+  "id": "deb04237-19f6-46bd-a02e-bd68016ec1be",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Doha%20FIR%20(OTDF).json",
-  "updateSerial": 2026061601,
+  "updateSerial": 2026061801,
   "stations": [
     {
       "id": "a07c0657-751d-42b1-a982-515c7bc499cc",
@@ -4105,7 +4105,7 @@
           "id": "94daa181-8d53-434c-9879-433c15319204",
           "ordinal": 1,
           "name": "34L/R | ILS APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT AND EXP ILS APCH FOR 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34 R CAT 1 ILS ONLY.\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]\r\n",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT AND EXP ILS APCH FOR 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nRWY 34 R CAT 1 ILS ONLY.\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4121,7 +4121,7 @@
           "ordinal": 2,
           "name": "16L/R | ILS APCH | DC",
           "notams": "",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT AND EXP ILS APCH FOR 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]\r\n",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT AND EXP ILS APCH FOR 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
