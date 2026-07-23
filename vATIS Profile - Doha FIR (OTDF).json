@@ -2,7 +2,7 @@
   "name": "Doha FIR (OTDF)",
   "id": "deb04237-19f6-46bd-a02e-bd68016ec1be",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Doha%20FIR%20(OTDF).json",
-  "updateSerial": 2026072301,
+  "updateSerial": 2026072302,
   "stations": [
     {
       "id": "a07c0657-751d-42b1-a982-515c7bc499cc",
@@ -4380,31 +4380,31 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir} DEG, {wind_spd}KT",
+              "text": "{wind_dir} DEG, {wind_spd} KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir} DEG, {wind_spd}KT, GUST {wind_gust}KT",
+              "text": "{wind_dir} DEG, {wind_spd} KT, GUST {wind_gust} KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variable": {
             "template": {
-              "text": "VAR {wind_spd}KT",
+              "text": "VAR {wind_spd} KT",
               "voice": "WIND VARIABLE AT {wind_spd}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}, GUST {wind_gust}KT",
+              "text": "VRB {wind_spd}, GUST {wind_gust} KT",
               "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
             }
           },
           "variableDirection": {
             "template": {
-              "text": "{wind_vmin} VAR {wind_vmax}",
+              "text": ", VRB BTN {wind_vmin} AND {wind_vmax} DEG",
               "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
             }
           },
@@ -6266,7 +6266,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter|hpa}\r\nQFE {qfe|37}",
+            "text": "QNH {altimeter|hpa}.\r\nQFE {qfe|37}",
             "voice": "QNH {altimeter|hpa} QFE {qfe|37}"
           }
         },
@@ -6322,7 +6322,7 @@
           "id": "d80ff83a-bfeb-4f29-87c7-d03b1fc2dec7",
           "ordinal": 1,
           "name": "15 | ILS APCH |",
-          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nRWY IN USE 15.\r\nEXP ILS APCH RWY 15.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nCAUTION CROSSWIND.\r\nWIND RWY 15 [SURFACE_WIND].\r\nVIS RWY 15 [VIS][RVR].\r\nCLD RWY 15 [CLOUDS].\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 15.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6337,7 +6337,7 @@
           "id": "5b796208-9174-49a4-aafd-4989f6531a38",
           "ordinal": 1,
           "name": "15 | RNP APCH |",
-          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nRWY IN USE 15.\r\nEXP RNP APCH RWY 15.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nCAUTION CROSSWIND.\r\nWIND RWY 15 [SURFACE_WIND].\r\nVIS RWY 15 [VIS][RVR].\r\nCLD RWY 15 [CLOUDS].\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 15.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6352,7 +6352,7 @@
           "id": "d9798b52-444e-4215-a1b3-49ac56be7413",
           "ordinal": 3,
           "name": "33 | ILS APCH |",
-          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nRWY IN USE 33.\r\nEXP ILS APCH RWY 33.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nCAUTION CROSSWIND.\r\nWIND RWY 33 [SURFACE_WIND].\r\nVIS RWY 33 [VIS][RVR].\r\nCLD RWY 33 [CLOUDS].\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 33.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6367,7 +6367,7 @@
           "id": "52f2026e-1c9d-4620-b4c2-5389e8a3b524",
           "ordinal": 4,
           "name": "33 | RNP APCH |",
-          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nRWY IN USE 33.\r\nEXP RNP APCH RWY 33.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nCAUTION CROSSWIND.\r\nWIND RWY 33 [SURFACE_WIND].\r\nVIS RWY 33 [VIS][RVR].\r\nCLD RWY 33 [CLOUDS].\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] COM ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 33.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
