@@ -1,8 +1,8 @@
 {
   "name": "Doha FIR (OTDF)",
-  "id": "deb04237-19f6-46bd-a02e-bd68016ec1be",
+  "id": "e174985f-1e99-4329-8cd1-7cb035c93053",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Doha%20FIR%20(OTDF).json",
-  "updateSerial": 2026080401,
+  "updateSerial": 2026100701,
   "stations": [
     {
       "id": "a07c0657-751d-42b1-a982-515c7bc499cc",
@@ -18,7 +18,7 @@
         "observationTime": {
           "template": {
             "text": "{time}Z",
-            "voice": "{time} ZULU {special}"
+            "voice": "TIME {time} ZULU {special}"
           }
         },
         "surfaceWind": {
@@ -75,7 +75,7 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityText": "10 KM OR MORE",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
@@ -1964,30 +1964,16 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 170
       },
       "presets": [
         {
-          "id": "6478b8c4-fda5-48c4-ba77-6db14a7ddfed",
+          "id": "9269f04b-03e1-40d4-ab7f-66b1cf210d1a",
           "ordinal": 1,
-          "name": "16L | SRO |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nDEPARTURES FM RWY 16 L, EXP TARVEX 2 DEP, NOTAM A 0875 / 26.\r\nFLT DEPARTING VIA ALVEN AFTER DEP BEST RATE OF CLIMB REQUIRED.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nE RWY DEPARTURES EXP NOTAM DEP A 0874 / 26, A 0875 / 26.\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "4915774b-0045-4b87-bfe0-158ab94de7c7",
-          "ordinal": 2,
-          "name": "16R | SRO |",
+          "name": "34L/R | DUAL",
+          "airportConditions": "",
           "notams": "",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nFLT DEPARTING VIA ALVEN AFTER DEP BEST RATE OF CLIMB REQUIRED.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT AND 34 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nTULUB DEP BEST RATE OF CLIMB REQUIRED TO MAKE NARMI FL 220.\r\nDEPARTURES FM RWY 34 R, EXP ALVEMI 2 DEP, NOTAM A 0874 / 26.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2000,9 +1986,9 @@
         },
         {
           "id": "de1ab6ba-a25d-4b16-949d-fc905a591da9",
-          "ordinal": 3,
-          "name": "16L/R | DC |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT AND 16 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nDEPARTURES FM RWY 16 L, EXP TARVEX 2 DEP, NOTAM A 0875 / 26.\r\nFLT DEPARTING VIA ALVEN AFTER DEP BEST RATE OF CLIMB REQUIRED.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nE RWY DEPARTURES EXP NOTAM DEP A 0874 / 26, A 0875 / 26.\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "ordinal": 2,
+          "name": "16L/R | DUAL",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT AND 16 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nTULUB DEP BEST RATE OF CLIMB REQUIRED TO MAKE NARMI FL 220.\r\nDEPARTURES FM RWY 16 L, EXP TARVEX 2 DEP, NOTAM A 0875 / 26.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nE RWY DEPARTURES EXP NOTAM DEP A 0874 / 26, A 0875 / 26.\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2015,9 +2001,9 @@
         },
         {
           "id": "54fefb70-1c25-4091-a0af-9c6a72b37b7e",
-          "ordinal": 5,
-          "name": "34L | SRO |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nFLT DEPARTING VIA ALVEN AFTER DEP BEST RATE OF CLIMB REQUIRED.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "ordinal": 3,
+          "name": "34L | SRO",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nTULUB DEP BEST RATE OF CLIMB REQUIRED TO MAKE NARMI FL 220.\r\n[NOTAMS]\r\nRWY 34 R UNAVAILABLE.\r\n[ARPT_COND]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2030,9 +2016,9 @@
         },
         {
           "id": "328030f9-2b88-44a9-a4af-f3f7ad48abe3",
-          "ordinal": 6,
-          "name": "34R | SRO |",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nDEPARTURES FM RWY 34 R, EXP ALVEMI 2 DEP, NOTAM A 0874 / 26.\r\nFLT DEPARTING VIA ALVEN AFTER DEP BEST RATE OF CLIMB REQUIRED.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "ordinal": 3,
+          "name": "34R | SRO",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nTULUB DEP BEST RATE OF CLIMB REQUIRED TO MAKE NARMI FL 220.\r\nDEPARTURES FM RWY 34 R, EXP ALVEMI 2 DEP, NOTAM A 0874 / 26.\r\n[NOTAMS]\r\nRWY 34 L UNAVAILABLE.\r\n[ARPT_COND]\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2044,12 +2030,26 @@
           }
         },
         {
-          "id": "9269f04b-03e1-40d4-ab7f-66b1cf210d1a",
+          "id": "6478b8c4-fda5-48c4-ba77-6db14a7ddfed",
+          "ordinal": 5,
+          "name": "16L | SRO",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nTULUB DEP BEST RATE OF CLIMB REQUIRED TO MAKE NARMI FL 220.\r\nDEPARTURES FM RWY 16 L, EXP TARVEX 2 DEP, NOTAM A 0875 / 26.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nE RWY DEPARTURES EXP NOTAM DEP A 0874 / 26, A 0875 / 26.\r\nRWY 16 R UNAVAILABLE.\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "4915774b-0045-4b87-bfe0-158ab94de7c7",
           "ordinal": 6,
-          "name": "34L/R | DC |",
-          "airportConditions": "",
+          "name": "16R | SRO",
           "notams": "",
-          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 34 RIGHT AND 34 LEFT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nDEPARTURES FM RWY 34 R, EXP ALVEMI 2 DEP, NOTAM A 0874 / 26.\r\nFLT DEPARTING VIA ALVEN AFTER DEP BEST RATE OF CLIMB REQUIRED.\r\n[NOTAMS]\r\n[ARPT_COND]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] DEP ATIS [ID].\r\nRWY IN USE 16 RIGHT.\r\nFLT PLANNED TO ROUTE THROUGH AMMAN FIR, NOTIFY CLR DELIVERY BY VOICE.\r\nTULUB DEP BEST RATE OF CLIMB REQUIRED TO MAKE NARMI FL 220.\r\n[NOTAMS]\r\nRWY 16 L UNAVAILABLE.\r\n[ARPT_COND]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2116,6 +2116,16 @@
           "variableName": "ABV",
           "text": "ABV",
           "voice": "ABOVE"
+        },
+        {
+          "variableName": "L",
+          "text": " L ",
+          "voice": "LEFT"
+        },
+        {
+          "variableName": "R",
+          "text": " R ",
+          "voice": "RIGHT"
         }
       ],
       "airportConditionDefinitions": [
@@ -2170,14 +2180,14 @@
       "name": "Doha-Hamad",
       "atisType": "Arrival",
       "codeRange": {
-        "low": "A",
+        "low": "B",
         "high": "Z"
       },
       "atisFormat": {
         "observationTime": {
           "template": {
             "text": "{time}Z",
-            "voice": "{time} ZULU {special}"
+            "voice": "TIME {time} ZULU {special}"
           }
         },
         "surfaceWind": {
@@ -4123,14 +4133,14 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 170
       },
       "presets": [
         {
           "id": "94daa181-8d53-434c-9879-433c15319204",
           "ordinal": 1,
-          "name": "34L/R | ILS APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT AND EXP ILS APCH FOR 34 LEFT.\r\n[ARPT_COND]\r\nRWY 34 R CAT 1 ILS ONLY.\r\nCAUTION POSSIBLE EASTERN RWY ILS FLUCTUATIONS.\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "name": "34L/R | ILS APCH | DUAL",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT AND EXP ILS APCH FOR 34 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\nILS RWY 34 R LIMITED TO CAT 1 ONLY.\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4144,9 +4154,9 @@
         {
           "id": "0bb99895-5c20-4510-a6dd-09a1be814db9",
           "ordinal": 2,
-          "name": "16L/R | ILS APCH | DC",
+          "name": "16L/R | ILS APCH | DUAL",
           "notams": "",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT AND EXP ILS APCH FOR 16 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE EASTERN RWY ILS FLUCTUATIONS.\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT AND EXP ILS APCH FOR 16 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4160,8 +4170,8 @@
         {
           "id": "c6bdbee3-0e71-4e76-a61d-d98ae0d6857b",
           "ordinal": 3,
-          "name": "34L/R | RNP APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT AND 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "name": "34L/R | RNP APCH | DUAL",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT AND 34 RIGHT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4175,8 +4185,8 @@
         {
           "id": "fe8bb4eb-ba37-4a19-bfc7-6068f5343e54",
           "ordinal": 4,
-          "name": "16L/R | RNP APCH | DC",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT AND 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "name": "16L/R | RNP APCH | DUAL",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT AND 16 RIGHT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4191,7 +4201,22 @@
           "id": "9ad977ae-05b8-4819-909c-06f2aa4ebda1",
           "ordinal": 5,
           "name": "34L | ILS APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE EASTERN RWY ILS FLUCTUATIONS.\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "4875607e-db15-4800-9e8b-b6059c921fb1",
+          "ordinal": 6,
+          "name": "34R | ILS APCH | SRO",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\nILS RWY 34 R LIMITED TO CAT 1 ONLY.\r\n[NOTAMS]\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4204,9 +4229,9 @@
         },
         {
           "id": "7069fca2-1c02-4e6f-b937-73d4fd704aee",
-          "ordinal": 5,
+          "ordinal": 7,
           "name": "34L | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 34 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 34L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4219,9 +4244,9 @@
         },
         {
           "id": "987cda17-c65b-483b-b380-30e8122aecac",
-          "ordinal": 7,
+          "ordinal": 8,
           "name": "34R | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 34 RIGHT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 34R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4233,10 +4258,10 @@
           }
         },
         {
-          "id": "bde40d5d-5f80-451c-815b-6a64e4940782",
+          "id": "ddd611d1-7877-4768-8709-8d84c6791a27",
           "ordinal": 8,
-          "name": "16L | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "name": "16L | ILS APCH | SRO",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4249,9 +4274,24 @@
         },
         {
           "id": "1c55bf7e-8281-46c9-add7-e2a892644fe0",
-          "ordinal": 9,
+          "ordinal": 10,
           "name": "16R | ILS APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP ILS APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "bde40d5d-5f80-451c-815b-6a64e4940782",
+          "ordinal": 11,
+          "name": "16L | RNP APCH | SRO",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 LEFT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 16L [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4264,9 +4304,9 @@
         },
         {
           "id": "14f645c9-4dd3-4e48-9274-d82f2018d9cb",
-          "ordinal": 10,
+          "ordinal": 12,
           "name": "16R | RNP APCH | SRO",
-          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
+          "template": "[TIME] [FACILITY] ARR ATIS [ID].\r\nEXP RNP APCH FOR RWY IN USE 16 RIGHT.\r\n[ARPT_COND]\r\nCAUTION POSSIBLE GPS INTERFERENCE.\r\n[NOTAMS]\r\nWIND RWY 16R [SURFACE_WIND].\r\n[VIS][RVR].\r\n[CLOUDS]\r\n[TEMP] [DEW].\r\n[PRESSURE].\r\n[TREND].\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
