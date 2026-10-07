@@ -1,8 +1,8 @@
 {
   "name": "Bahrain FIR (OBBB)",
-  "id": "e68ab503-554c-4e78-a6d7-7f097e937848",
+  "id": "32266f9b-737b-4d45-90e7-0dbf44396d6f",
   "updateUrl": "https://raw.githubusercontent.com/khaleej-vacc/vATIS-Profiles/refs/heads/main/vATIS%20Profile%20-%20Bahrain%20FIR%20(OBBB).json",
-  "updateSerial": 2026040101,
+  "updateSerial": 2026100701,
   "stations": [
     {
       "id": "dae50269-16c9-4149-882b-1fa5636ad272",
@@ -1964,7 +1964,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 180
+        "speechRate": 160
       },
       "presets": [
         {
@@ -1972,7 +1972,7 @@
           "name": "30R | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nCRANE ERECTED 550 M N NW OF BAHRAIN VOR /\r\nDME AT FUEL FARM MAXIMUM ALT 250 FT REF TO\r\nNOTAM A0266/26\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1988,7 +1988,7 @@
           "name": "12L | ILS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @ILS\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nCRANE ERECTED 550 M N NW OF BAHRAIN VOR /\r\nDME AT FUEL FARM MAXIMUM ALT 250 FT REF TO\r\nNOTAM A0266/26\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2002,7 +2002,7 @@
         {
           "id": "d6d4fa0f-d79b-4b0d-a994-622486d1e338",
           "name": "30R | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @VOR\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @VOR\r\nLDG @30R IN USE\r\nDEP @30R IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nCRANE ERECTED 550 M N NW OF BAHRAIN VOR /\r\nDME AT FUEL FARM MAXIMUM ALT 250 FT REF TO\r\nNOTAM A0266/26\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2016,7 +2016,7 @@
         {
           "id": "13754385-e8cd-4f5f-979d-482f48a9708e",
           "name": "12L | VOR",
-          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @VOR\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nEND OF ATIS [ATIS_LETTER]",
+          "template": "[FACILITY] DEP ARR ATIS [ATIS_LETTER]\r\n[TIME] ATIS [ATIS_LETTER]\r\nEXP @VOR\r\nLDG @12L IN USE\r\nDEP @12L IN USE\r\n[NOTAMS]\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\n[RECENT_WX]\r\n[TREND]\r\nCRANE ERECTED 550 M N NW OF BAHRAIN VOR /\r\nDME AT FUEL FARM MAXIMUM ALT 250 FT REF TO\r\nNOTAM A0266/26\r\nEND OF ATIS [ATIS_LETTER]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2088,6 +2088,31 @@
           "variableName": "VOR",
           "text": "VOR",
           "voice": "VEE-O-ARE"
+        },
+        {
+          "variableName": "NOTAM",
+          "text": "NOTAM",
+          "voice": "KNOWTAM"
+        },
+        {
+          "variableName": "REF",
+          "text": "REF",
+          "voice": "REFER"
+        },
+        {
+          "variableName": "550_M",
+          "text": "550 M",
+          "voice": "FIVE HUNDRED AND FIFTY METERS"
+        },
+        {
+          "variableName": "ALT",
+          "text": "ALT",
+          "voice": "ALTITUDE"
+        },
+        {
+          "variableName": "250",
+          "text": "250",
+          "voice": "TWO HUNDRED AND FIFTY"
         }
       ],
       "airportConditionDefinitions": [
@@ -2101,7 +2126,7 @@
         {
           "text": "CTN FLOCKS OF BIRDS IN\r\nTHE VICINITY OF THE\r\nAERODROME.",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     }
